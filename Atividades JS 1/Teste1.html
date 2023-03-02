@@ -1,0 +1,31 @@
+<html>
+    <meta charset="UTF-8">
+    <title> Página 1 </title>
+    
+<head>
+    <a>  Quantos seguidores tem Tosking? <br> </a>
+    </head>
+    <body>
+
+        <script> 
+             
+             var seguidores = 332;
+             var haters = 32;
+             var subs = 10;
+             var media = (seguidores + haters + subs)/3;
+             function pulaLinha() {
+                document.write("<br>");
+             }
+
+             pulaLinha();
+             document.write("Tosking tem " + (seguidores - haters + subs) + " fiéis, " + haters + " haters e " + subs + " Subs") ;
+             pulaLinha();
+             document.write("Em média, Tosking tem " + Math.round(media) + " seguidores");
+             pulaLinha();
+               
+        </script>
+    
+
+    <br> <button> <a href="Programa.html"> Confirmar </a> </button>
+
+    </body>     
